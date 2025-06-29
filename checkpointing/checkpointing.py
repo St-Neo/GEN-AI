@@ -46,6 +46,11 @@ def main():
         print("Connecting to:", DB_URI)
         print(graph_result)
 
+        #to stream a graph we can do something like
+        # for event in graph_with_mongo.stream(_state):
+        #     print("event",event)
+        #we would actually need more nodes and edges and also need to implement the state but you get the gist
+
 main()
 
 
